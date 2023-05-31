@@ -1,0 +1,71 @@
+/***********************************/
+/* Custom Properties */
+:root {
+  /* Colors */
+
+  /* Fonts */
+}
+
+/***********************************/
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+/***********************************/
+/* Typography */
+
+/* Headings */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+}
+
+/***********************************/
+/* Main Layout */
+
+/***********************************/
+/* Util Classes */
+
+/**************************************/
+/* Responsive styling */
+/**************************************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
