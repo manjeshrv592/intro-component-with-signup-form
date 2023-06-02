@@ -30,6 +30,7 @@ html {
 }
 
 body {
+  color: var(--dark-blue);
   font-size: 1.6rem;
   font-family: var(--font-body);
   font-weight: 500;
@@ -133,6 +134,13 @@ img {
   margin-bottom: 1.6rem;
 }
 
+.form-success-msg {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 0.8rem;
+}
+
 .form-group::after {
   content: attr(data-error);
   display: none;
@@ -223,6 +231,10 @@ input::placeholder {
 
 /***********************************/
 /* Util Classes */
+.d-none {
+  display: none;
+}
+
 .text-white {
   color: #fff;
 }
